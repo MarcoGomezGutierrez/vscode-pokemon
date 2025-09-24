@@ -2734,15 +2734,22 @@ export const POKEMON_DATA: { [key: string]: PokemonConfig } = {
     sportjanira: {
         id: 387,
         name: 'Sportjanira',
-        generation: PokemonGeneration.Gen3,
+        generation: PokemonGeneration.Gen4,
         cry: 'Sportjanira!',
         possibleColors: [PokemonColor.default],
     },
     mario: {
         id: 388,
         name: 'Mario',
-        generation: PokemonGeneration.Gen3,
+        generation: PokemonGeneration.Gen4,
         cry: 'Mario!',
+        possibleColors: [PokemonColor.default],
+    },
+    luigi: {
+        id: 389,
+        name: 'Luigi',
+        generation: PokemonGeneration.Gen4,
+        cry: 'Luigi!',
         possibleColors: [PokemonColor.default],
     },
 };
