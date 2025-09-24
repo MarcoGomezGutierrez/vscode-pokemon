@@ -1,4 +1,4 @@
-import { POKEMON_DATA } from "./pokemon-data";
+import { POKEMON_DATA } from './pokemon-data';
 
 export const enum PokemonColor {
     default = 'default',
@@ -22,7 +22,7 @@ export interface PokemonConfig {
     generation: PokemonGeneration;
     cry: string;
     possibleColors: PokemonColor[];
-    originalSpriteSize?: number,
+    originalSpriteSize?: number;
 }
 
 export const enum PokemonSpeed {
@@ -69,9 +69,7 @@ export class WebviewMessage {
     }
 }
 
-export const ALL_COLORS = [
-    PokemonColor.default,
-];
+export const ALL_COLORS = [PokemonColor.default];
 export const ALL_SCALES = [
     PokemonSize.nano,
     PokemonSize.small,
