@@ -2738,6 +2738,13 @@ export const POKEMON_DATA: { [key: string]: PokemonConfig } = {
         cry: 'Sportjanira!',
         possibleColors: [PokemonColor.default],
     },
+    mario: {
+        id: 388,
+        name: 'Mario',
+        generation: PokemonGeneration.Gen3,
+        cry: 'Mario!',
+        possibleColors: [PokemonColor.default],
+    },
 };
 
 export function getAllPokemon(): PokemonType[] {
