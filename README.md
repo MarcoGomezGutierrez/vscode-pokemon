@@ -92,17 +92,3 @@ Extracting and creating .gif files involves quite a bit of tedious manual work, 
 - This repository is a fan project and is not affiliated with Nintendo, The Pokémon Company, or Game Freak
 
 This repository is inspired by and based on [vscode-pets](https://github.com/tonybaloney/vscode-pets) by [tonybaloney](https://github.com/tonybaloney).
-
-# Instalation
-
-npm install
-
-npm run compile
-
-npm install -g vsce
-
-vsce package
-
-code --install-extension C:\Users\MarcoGomezGutierrez\VisualStudio\otros\vscode-pokemon\vscode-pokemon-custom-3.1.1.vsix
-
-code --uninstall-extension C:\Users\MarcoGomezGutierrez\VisualStudio\otros\vscode-pokemon\vscode-pokemon-custom-3.1.1.vsix
