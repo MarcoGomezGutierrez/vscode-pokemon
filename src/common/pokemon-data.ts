@@ -2752,6 +2752,13 @@ export const POKEMON_DATA: { [key: string]: PokemonConfig } = {
         cry: 'Luigi!',
         possibleColors: [PokemonColor.default],
     },
+    daniellus_garciliath: {
+        id: 390,
+        name: 'Daniellus Garciliath',
+        generation: PokemonGeneration.Gen4,
+        cry: 'Daniellus Garciliath!',
+        possibleColors: [PokemonColor.default],
+    },
 };
 
 export function getAllPokemon(): PokemonType[] {

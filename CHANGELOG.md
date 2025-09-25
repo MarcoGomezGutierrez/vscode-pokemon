@@ -2,6 +2,14 @@
 
 All notable changes to the "vscode-pokemon" extension will be documented in this file.
 
+## [3.1.2]
+
+- add: Generation 4 (Special Characters)
+- add: Daniellus Garciliath
+- add: Luigi
+- add: Mario
+- add: Sportjanira
+
 ## [3.1.1]
 
 - chore: update readme
